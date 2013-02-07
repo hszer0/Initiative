@@ -19,3 +19,14 @@ C:\Users\pliem\Dropbox\Projects\Initiative\obj\x86\Debug\GenerateResource.write.
 C:\Users\pliem\Dropbox\Projects\Initiative\obj\x86\Debug\Initiative.ParticipantManagement.resources
 C:\Users\pliem\Dropbox\Projects\Initiative\obj\x86\Debug\Initiative.frmAddParticipant.resources
 C:\Users\pliem\Dropbox\Projects\Initiative\obj\x86\Debug\Initiative.frmRollInitiative.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.exe
+D:\Source\Initiative\obj\x86\Debug\Initiative.pdb
+D:\Source\Initiative\bin\Debug\Initiative.exe
+D:\Source\Initiative\bin\Debug\Initiative.pdb
+D:\Source\Initiative\obj\x86\Debug\Initiative.csprojResolveAssemblyReference.cache
+D:\Source\Initiative\obj\x86\Debug\Initiative.frmAddParticipant.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.ParticipantManagement.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.Main.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.Properties.Resources.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.frmRollInitiative.resources
+D:\Source\Initiative\obj\x86\Debug\Initiative.csproj.GenerateResource.Cache

@@ -19,7 +19,16 @@ namespace Initiative
         private void frmRollInitiative_Load(object sender, EventArgs e)
         {
             //datagrid vullen
-            //Globals.dtSelected
+
+            foreach (DataRow row in Globals.dtInitiative.Rows)
+	        {
+                dgvCombatants.Rows.Add(row["Name"], null, row["Init"], row["Dex"]);
+	        }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

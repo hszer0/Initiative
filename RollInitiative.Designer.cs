@@ -31,7 +31,7 @@
             this.dgvCombatants = new System.Windows.Forms.DataGridView();
             this.btnStart = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Name_ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PlayerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Initiative = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.InitMod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dex = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,7 +47,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCombatants.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCombatants.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Name_,
+            this.PlayerName,
             this.Initiative,
             this.InitMod,
             this.Dex});
@@ -65,6 +65,7 @@
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "Start Combat!";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // label1
             // 
@@ -78,15 +79,15 @@
     "\r\nYou can add, remove and edit entries\r\nin this grid. When you\'re finished,\r\npre" +
     "ss \"Start Combat\".";
             // 
-            // Name_
+            // PlayerName
             // 
-            this.Name_.HeaderText = "Name";
-            this.Name_.Name = "Name_";
-            this.Name_.Width = 200;
+            this.PlayerName.HeaderText = "Name";
+            this.PlayerName.Name = "PlayerName";
+            this.PlayerName.Width = 200;
             // 
             // Initiative
             // 
-            this.Initiative.HeaderText = "Initiative";
+            this.Initiative.HeaderText = "Initiative Total";
             this.Initiative.Name = "Initiative";
             this.Initiative.Width = 70;
             // 
@@ -124,7 +125,7 @@
         private System.Windows.Forms.DataGridView dgvCombatants;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name_;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PlayerName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Initiative;
         private System.Windows.Forms.DataGridViewTextBoxColumn InitMod;
         private System.Windows.Forms.DataGridViewTextBoxColumn Dex;
